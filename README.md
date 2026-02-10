@@ -61,8 +61,7 @@ All visualizations are generated only from `analytics.message_facts`
 
 # How to Run the Pipeline
 
-Create PostgreSQL Database
-# CREATE DATABASE Analytics_WA;
-# Run the SQL Script - Raw Tables creation and run the Script Data Ingestion
-# Later run the Scripts Transformation,Duplicatae check and Validation Checks
-# Finally run the Visualisations Script where it generate all required plots and metrics using `analytics.message_facts`
+- Create PostgreSQL Database by using this command : CREATE DATABASE Analytics_WA;
+- Run the SQL Script - Raw Tables creation and run the Script Data Ingestion
+- Later run the Scripts Transformation,Duplicatae check and Validation Checks
+- Finally run the Visualisations Script where it generate all required plots and metrics using `analytics.message_facts`
