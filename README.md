@@ -16,7 +16,7 @@ The pipeline:
 
 ## Data Ingestion
 - Raw data is provided as an Excel file with two sheets:Messages and Statuses
-- Data is loaded into PostgreSQL tables: raw.messages and raw.statuses`
+- Data is loaded into PostgreSQL tables: raw.messages and raw.statuses
 - Tables are append-only and the load process is re-runnable.
 
 Row counts after ingestion:
